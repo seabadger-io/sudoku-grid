@@ -6,6 +6,8 @@
   flex-flow: row wrap;
   border: 3px solid #000;
   font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tile {
