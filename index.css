@@ -1,0 +1,28 @@
+.board {
+  width: 100%;
+  min-width: 400px;
+  max-width: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  border: 3px solid #000;
+  font-family: sans-serif;
+}
+
+.tile {
+  flex-basis: calc(100% / 9);
+  box-sizing: border-box;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.tile:nth-child(3n):not(:nth-child(9n)){
+  border-right: 3px solid #000;
+}
+
+.tile:nth-child(n+19):nth-child(-n+27) {
+  border-bottom: 3px solid #000;
+}
+
+.tile:nth-child(n+46):nth-child(-n+54) {
+  border-bottom: 3px solid #000;
+}
