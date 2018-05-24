@@ -1,3 +1,10 @@
+#grid-root {
+  width: 100%;
+  max-width: 100vmin;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .board {
   width: 100%;
   min-width: 400px;
