@@ -22,6 +22,7 @@
   box-sizing: border-box;
   border: 1px solid #000;
   text-align: center;
+  cursor: default;
 }
 
 .tile:nth-child(3n):not(:nth-child(9n)){
@@ -34,4 +35,8 @@
 
 .tile:nth-child(n+46):nth-child(-n+54) {
   border-bottom: 3px solid #000;
+}
+
+.active-line {
+  background-color: rgba(0,0,0,0.1);
 }
